@@ -1,0 +1,71 @@
+#me{
+    float: left;
+    border: none;
+    border-radius: 2rem;
+    margin-right: 2%;
+}
+#main{
+    height:80vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height:40vmin;
+    width: 190vmin;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4vmin;
+    margin-top: 5%;
+}
+.card1{
+    height:70vmin;
+    width:50vmin;
+    background-color: bisque;
+    border: none;
+    border-radius: 1rem;
+    color: black;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+}
+.card1:hover{
+    box-shadow: 0 0 2rem rgb(234, 3, 3);
+    transform:scale(1,1.1);
+    transition: 0.5s ease;
+}
+body{
+    background-color: rgba(187, 255, 135, 0.907);
+}
+#painting{
+    height:60vh;
+    justify-content: center;
+    align-items: center;
+}
+#paint{
+    height:40vmin;
+    width: 200vmin;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4vmin;
+    margin-top: 2%;
+}
+.art{
+    height:46vmin;
+    width:45vmin;
+    background-color: bisque;
+    border: none;
+    border-radius: 1rem;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-top: 2%;
+}
+.art:hover{
+    box-shadow: 0 0 2rem rgb(234, 3, 3);
+    transform:scale(1,1.2);
+    transition: 0.5s ease;
+}
